@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+
+.body{
+    padding: 0;
+    margin: 0;
+    height: 81vh;
+    background: #2A2734;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./pic.jpg) no-repeat center;
+ background-size: cover;
+}
+
+.digitalClock{
+   border: 2px solid grey;
+   box-shadow: 10px gray;
+   border-radius: 10px;
+    height: 18vh;
+    width: 450px;
+    text-align: center;
+    
+    
+}
+.time{
+  
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   
+   
+}
+#colon,#hour,#minute,#second,#ampm{
+    padding: 5px 20px;
+}
